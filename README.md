@@ -7,7 +7,7 @@ This repo is intended to house archives for the Anki Vector (née Victor) robot.
 * OTA Updates delivered from: http://ota.global.anki-services.com/vic/prod/full/latest.ota
 
 # Vector SDK Registration Flow
-* Self-signed cert downloaded from Vector
+* Cert downloaded for Vector downloaded from https://session-certs.token.global.anki-services.com/vic/{serial_number}
 * User session established with Anki using the Accounts API
 * Session token Base64 encoded
 * Machine hostname Base64 encoded

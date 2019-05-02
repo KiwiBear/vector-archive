@@ -2,6 +2,7 @@
 This repo is intended to house archives for the Anki Vector (née Victor) robot.
 
 # Useful addresses hardcoded in to the Vector app & OS
+* Device certs: https://session-certs.token.global.anki-services.com/vic/{serial_number}
 * Accounts API: https://accounts.api.anki.com/1/sessions
 * Locations API: https://locations.api.anki.com/1/locations
 * OTA Updates delivered from: http://ota.global.anki-services.com/vic/prod/full/latest.ota

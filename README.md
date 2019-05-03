@@ -77,3 +77,15 @@ This repo is intended to house archives for the Anki Vector (née Victor) robot.
 | | | | |
 | forums.anki.com | CNAME | anki.bydiscourse.com | Developer/User Forums |
 
+# Vector Cert and Auth Files #
+Since we don't know how long the servers that create your SDK_Config information will stay up, it is very important to configure your Vector SDK and back up these files.
+
+By default they can be find in your C:\Users\[username]\.anki_vector folder.
+
+You will find a .cert file for each Vector. It will be named Vector-[####]-[xxxxxxxx].cert where #### is the Vector name, and xxxxxxxx is the serial number.
+
+The other file will be the sdk_config.ini file, which will contain information for each Vector you configure.
+
+Within the file you will find your serial number, file location for the cert, ip address assigned to that Vector, Vector name, and guid value.
+
+Back this folder up in multiple locations. If you lose this guid and the auth servers go down, you're going to have a bad time.

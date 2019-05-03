@@ -66,10 +66,32 @@ This repo is intended to house archives for the Anki Vector (née Victor) robot.
 | accounts.api.anki.com | CNAME | sai-go-accounts-production-639190070.us-west-2.elb.amazonaws.com | User identity service |
 | token.api.anki.com | CNAME | sai-token-service-production-4e4f609b8a1ff82b.elb.us-west-2.amazonaws.com | |
 | | | | |
+| 0.anki.pool.ntp.com | A | 38.229.71.1 | Anki time service |
+| 0.anki.pool.ntp.com | A | 107.155.79.108 | Anki time service |
+| 0.anki.pool.ntp.com | A | 199.180.133.100 | Anki time service |
+| 0.anki.pool.ntp.com | A | 204.11.201.12 | Anki time service |
+| 1.anki.pool.ntp.com | A | 89.221.210.188 | Anki time service |
+| 1.anki.pool.ntp.com | A | 92.62.34.78 | Anki time service |
+| 1.anki.pool.ntp.com | A | 176.96.138.245 | Anki time service |
+| 1.anki.pool.ntp.com | A | 204.2.134.162 | Anki time service |
+| 2.anki.pool.ntp.com | A | 66.228.48.38 | Anki time service |
+| 2.anki.pool.ntp.com | A | 72.30.35.88 | Anki time service |
+| 2.anki.pool.ntp.com | A | 72.46.53.234 | Anki time service |
+| 2.anki.pool.ntp.com | A | 192.111.144.114 | Anki time service |
+| 2.anki.pool.ntp.com | A | 2001:19f0:200:144b::2000 | Anki time service |
+| 2.anki.pool.ntp.com | A | 2600:3c03::f03c:91ff:fe08:894c | Anki time service |
+| 2.anki.pool.ntp.com | A | 2604:880:52:9bb::1 | Anki time service |
+| 2.anki.pool.ntp.com | A | 2620:138:5000:0:5054:ff:fe89:6673 | Anki time service |
+| 3.anki.pool.ntp.com | A | 69.89.207.199 | Anki time service |
+| 3.anki.pool.ntp.com | A | 98.191.213.2 | Anki time service |
+| 3.anki.pool.ntp.com | A | 103.105.51.156 | Anki time service |
+| 3.anki.pool.ntp.com | A | 199.102.46.79 | Anki time service |
+| | | | |
 | conncheck.global.anki-services.com | A | 52.84.64.17 | |
 | conncheck.global.anki-services.com | A | 52.84.64.34 | |
 | conncheck.global.anki-services.com | A | 52.84.64.84 | |
 | conncheck.global.anki-services.com | A | 52.84.64.187 | |
+| | | | |
 | ota.global.anki-services.com | A | 52.84.64.125 | OTA firmware distribution | 
 | ota.global.anki-services.com | A | 52.84.64.169 | OTA firmware distribution | 
 | ota.global.anki-services.com | A | 52.84.64.185 | OTA firmware distribution | 

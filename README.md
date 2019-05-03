@@ -56,3 +56,21 @@ This repo is intended to house archives for the Anki Vector (née Victor) robot.
 |	POST	|	 "/v1/event_stream"	|	POST	|	 "/v1/user_authentication"	|
 |	GET	|	 "/v1/event_stream"	|	POST	|	 "/v1/version_state"	|
 |	POST	|	 "/v1/feature_flag"	|		|		|
+
+# DNS Entries used by Vector #
+| DNS Name | Record Type | Value | Usage |
+| --- | --- | --- | --- |
+| jdocs.api.anki.com | CNAME | sai-jdocs-production-a118882cab770eaf.elb.us-west-2.amazonaws.com | |
+| chipper.api.anki.com | CNAME | sai-chipper-voice-production-c3986a3cf3880c40.elb.us-west-2.amazonaws.com | |
+| locations.api.anki.com | CNAME | sai-locations-production-867039238.us-west-2.elb.amazonaws.com | |
+| accounts.api.anki.com | CNAME | sai-go-accounts-production-639190070.us-west-2.elb.amazonaws.com | |
+| token.api.anki.com | CNAME | sai-token-service-production-4e4f609b8a1ff82b.elb.us-west-2.amazonaws.com | |
+| forums.anki.com | CNAME | anki.bydiscourse.com | |
+| | | | |
+| conncheck.global.anki-services.com | A | 52.84.64.17 | |
+| conncheck.global.anki-services.com | A | 52.84.64.34 | |
+| conncheck.global.anki-services.com | A | 52.84.64.84 | |
+| conncheck.global.anki-services.com | A | 52.84.64.187 | |
+| | | | |
+| forums.anki.com | CNAME | anki.bydiscourse.com | Developer/User Forums |
+
